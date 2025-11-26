@@ -1,7 +1,5 @@
 # E2Tree - Extending Explainable Ensemble Trees to Regression Contexts
 
-[![R](https://img.shields.io/badge/R-%E2%89%A54.0.0-blue)](https://www.r-project.org/)
-
 This repository contains the replication code and data for the paper:
 
 **"Extending Explainable Ensemble Trees to regression contexts"**
@@ -11,6 +9,7 @@ This repository contains the replication code and data for the paper:
 ¹ Department of Economics and Statistics, University of Naples Federico II, Naples, Italy  
 ² Institute of Psychology, Leiden University, Leiden, The Netherlands
 
+**In press** on *Applied Stochastic Models in Business and Industry*, Wiley
 
 ## 🔍 Overview
 
@@ -36,7 +35,6 @@ This repository contains the replication code and data for the paper:
 ### Software Requirements
 
 - **R** version ≥ 4.0.0
-- **RStudio** 
 
 ### R Package Dependencies
 
@@ -48,10 +46,19 @@ install.packages(c(
   "dplyr",           # Data manipulation
   "rio",             # Data import/export
   "microbenchmark",  # Performance benchmarking
-  "e2tree"           # E2Tree package
+  "e2tree"           # E2Tree package (Version: 0.2.0)
 ))
-
 ```
+
+> **Note on e2tree Package Version**: This analysis uses e2tree version **0.2.0** from CRAN. If newer versions are released, you can always access this specific version through the CRAN package archive at: [https://cran.r-project.org/src/contrib/Archive/e2tree/](https://cran.r-project.org/src/contrib/Archive/e2tree/)
+>
+> To install a specific version from the archive:
+> ```r
+> # Install specific version from CRAN archive
+> packageurl <- "https://cran.r-project.org/src/contrib/Archive/e2tree/e2tree_0.2.0.tar.gz"
+> install.packages(packageurl, repos = NULL, type = "source")
+> ```
+
 
 ## Installation
 
