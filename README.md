@@ -11,7 +11,7 @@ This repository contains the replication code and data for the paper:
 
 **In press** on *Applied Stochastic Models in Business and Industry*, Wiley
 
-## 🔍 Overview
+## Overview
 
 **E2Tree** (Explainable Ensemble Trees) is a post-hoc explanation tool for Random Forest models that provides both local and global insights into model decision processes. This work extends the original E2Tree methodology from classification to **regression contexts**.
 
@@ -29,8 +29,6 @@ This repository contains the replication code and data for the paper:
 2. Novel normalized mean square error (NMSE) measure for node goodness-of-fit
 3. Comprehensive evaluation on real-world datasets
 4. Statistical validation through Mantel correlation tests
-
-##️ Requirements
 
 ### Software Requirements
 
